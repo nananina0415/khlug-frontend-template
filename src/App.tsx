@@ -8,7 +8,7 @@ import {
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/">{/* 여기에 라우트를 추가하세요 */}</Route>,
+      <Route path="/" element={<div>Hello KHLUG</div>} />,
     ),
     {
       future: {
