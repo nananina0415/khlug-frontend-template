@@ -58,6 +58,12 @@ src/
 
 공용 컴포넌트, 훅, 레이아웃, 유틸리티는 `@khlug/common-module`에서 제공합니다.
 
+## 컴포넌트 사용 우선순위
+
+1. **`@khlug/common-module`** — 공용 컴포넌트/훅이 있으면 먼저 사용
+2. **Chakra UI** — 공용 모듈에 없는 UI는 Chakra UI 컴포넌트 사용
+3. **직접 구현** — 위 둘로 불가능한 경우에만 직접 구현
+
 ## @khlug/common-module 업데이트
 
 `package.json`의 태그 번호를 변경한 후 재설치합니다.
