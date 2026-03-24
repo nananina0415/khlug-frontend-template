@@ -57,3 +57,15 @@ src/
 ```
 
 공용 컴포넌트, 훅, 레이아웃, 유틸리티는 `@khlug/common-module`에서 제공합니다.
+
+## @khlug/common-module 업데이트
+
+`package.json`의 태그 번호를 변경한 후 재설치합니다.
+
+```json
+"@khlug/common-module": "github:nananina0415/khlug-frontend-common#vX.Y.Z"
+```
+
+```sh
+yarn install
+```

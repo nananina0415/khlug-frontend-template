@@ -111,6 +111,14 @@ src/
 3. **사용성 중심** — 랜딩 페이지가 아니므로 화려함보다 실용성
 4. **구현 복잡도 균형** — 구현 난이도가 급격히 높아지면 차선책 고려
 
+## @khlug/common-module 업데이트
+
+`package.json`의 태그 번호를 변경한 후 `yarn install`합니다.
+
+```json
+"@khlug/common-module": "github:nananina0415/khlug-frontend-common#vX.Y.Z"
+```
+
 ## TypeScript 설정
 
 - strict 모드, ES2020 타겟, bundler 모듈 해상도
